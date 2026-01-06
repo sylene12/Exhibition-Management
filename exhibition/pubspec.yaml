@@ -1,0 +1,68 @@
+name: exhibition_booth_management
+description: A comprehensive exhibition and trade show management system
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  
+  # State Management
+  flutter_riverpod: ^3.0.3
+  
+  # Routing
+  go_router: ^17.0.1
+  
+  # Firebase
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  firebase_auth: ^6.1.3
+  firebase_storage: ^13.0.5
+  
+  # Local Storage & Caching
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^10.0.0
+  
+  # Network
+  http: ^1.1.2
+  
+  # Utilities
+  uuid: ^4.2.2
+  intl: ^0.20.2
+  
+  # Image Picker
+  image_picker: ^1.0.5
+  
+  # Flutter Toast for notifications
+  fluttertoast: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
